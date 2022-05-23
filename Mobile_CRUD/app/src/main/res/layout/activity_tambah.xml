@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/gradient"
+    android:layout_margin="10dp"
+    tools:context=".Tambah_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_baseline_person_pin_circle_24"
+        android:drawablePadding="20dp"
+        android:hint="Input Nama"
+        android:id="@+id/ins_nama"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_baseline_vpn_key_30"
+        android:drawablePadding="20dp"
+        android:hint="Input Nim"
+        android:id="@+id/ins_nim"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_baseline_phone_enabled_30"
+        android:drawablePadding="20dp"
+        android:hint="Input No.Hp"
+        android:phoneNumber="true"
+        android:id="@+id/ins_no_telp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_baseline_email_30"
+        android:drawablePadding="20dp"
+        android:hint="Input Email"
+        android:id="@+id/ins_email"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah"
+        android:background="@drawable/gradient"
+        android:layout_gravity="center_vertical"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp">
+        </Button>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:onClick="btn_add_activity"
+        android:src="@drawable/ic_baseline_arrow_back_24" />
+    </RelativeLayout>
+</LinearLayout>

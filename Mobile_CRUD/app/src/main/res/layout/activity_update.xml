@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/gradient"
+    android:layout_margin="10dp"
+    tools:context=".Update_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Data"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_baseline_https_30"
+        android:drawablePadding="20dp"
+        android:hint="Id"
+        android:id="@+id/upd_id"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        android:enabled="false"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_baseline_person_pin_circle_24"
+        android:drawablePadding="20dp"
+        android:hint="Nama"
+        android:id="@+id/upd_nama"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_baseline_vpn_key_30"
+        android:drawablePadding="20dp"
+        android:hint="Nim"
+        android:id="@+id/upd_nim"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_baseline_phone_enabled_30"
+        android:drawablePadding="20dp"
+        android:hint="No.Hp"
+        android:phoneNumber="true"
+        android:id="@+id/upd_no_telp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_baseline_email_30"
+        android:drawablePadding="20dp"
+        android:hint="Email"
+        android:id="@+id/upd_email"
+        android:layout_marginTop="10dp"
+
+        />
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update "
+        android:onClick="btnUpdate"
+        android:backgroundTint="@color/blueocean"
+        android:layout_gravity="center_vertical"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp">
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+-Tahap 1
+Nama FOlder api_crud_mobile taro file di dalam htdoc (C:\xampp\htdocs)
+
+-Tahap 2 
+Input mobile_database.sql di phpmyadmin, langsung import aja gausah bikin 
+database, tabelnya udah ada
+
+-Tahap 3
+open file Mobile Crud di android studio, Ip localhost nya udah umum, di laptop
+mana aja bisa jalan
+
+*Jangan lupa nyalain xampp nya
+
+
